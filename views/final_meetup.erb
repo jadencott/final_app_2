@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>language.playdate</title>
+   <link rel="stylesheet" type="type/css" href="/style.css">
+
+ </head>
+
+ <body>
+   <h1>Final Meetup Details</h1>
+  <%= "Your #{params[:language]} meeting will be on #{params[:date]}
+     at #{params[:time]} at #{params[:address]}, #{params[:zipcode]}. Is that correct?" %>
+ 
+<a href="http://localhost:4567"><button class=buttons>Yes! That's it!</button></a> 
+<a href="http://localhost:4567/organize_meetup"><button class=buttons>No! Send me back!</button></a>
+
+ </body>
+ 
+</html>
