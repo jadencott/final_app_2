@@ -1,9 +1,10 @@
 .buttons{
 	background-color:#fcbfae;
-	padding:25px;
-	font-family: sans-serif;
+	padding:10px;
+	font-family: Courier New;
 	font-weight:bold;
 	font-size:30px;
+	border-radius:10px;
 
 }
 	
@@ -12,40 +13,19 @@
 }
 
 body {
-	background-color:white;
-	font-family:'Quicksand';
+	background-image:url("https://i.pinimg.com/originals/3d/e1/a1/3de1a167c8fe6bf1fada9a37c5c5c5f5.jpg");
+	font-family:'Courier New';
 	font-size: 22px;
 	text-align:center;
 	color:black;
-
-}
-
-/*body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Arial',Serif
-}
-
-.nav {
-  background-color: #595959;
-  color: #ffffff;
-  list-style: none;
-  text-align: center;
-  padding: 0 25px 0 25px
-}
-
-.nav > li {
-  display: inline-block;
-  padding; 50px
 }
  
-.nav > li > a {
- text-decoration: none;
- color: #ffffff
+
+#paragraph{
+	background-color:#fcf9f2;
 }
 
-.nav > li > a:hover {
-  color: #c1c1c1;*/
-
-
-
+.picture{
+	/*padding:10px;*/
+	border:3px solid #021a40;
+}

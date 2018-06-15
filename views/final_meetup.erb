@@ -9,8 +9,8 @@
 
  <body>
    <h1>Final Meetup Details</h1>
-  <%= "Your #{params[:language]} meeting will be on #{params[:date]}
-     at #{params[:time]} at #{params[:address]}, #{params[:zipcode]}. Is that correct?" %>
+ <p id=paragraph> <%= "Your #{params[:language]} meeting will be on #{params[:date]}
+     at #{params[:time]} at #{params[:address]}, #{params[:zipcode]}. Is that correct?" %> </p>
  
 <a href="http://localhost:4567"><button class=buttons>Yes! That's it!</button></a> 
 <a href="http://localhost:4567/organize_meetup"><button class=buttons>No! Send me back!</button></a>
